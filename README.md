@@ -9,6 +9,6 @@ Simple Hello World Git Collaboration
 * Rakshanda (Leader)
 * Aqsa
 * Esha
-* Eman Idrees (56964)
+* Eman Idrees (56964)..
 * Ayesha
 
