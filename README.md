@@ -1,15 +1,10 @@
-# DevOps Fall 2026 Project
+Group Members
+Rakshanda Mehboob — Team Leader
+Esha — Member — ID: 57381
+Aqsa — Member — ID: 53106
+Eman — Member — ID: 56964
+Ayesha — Member — ID: 55693
+Project Description
 
-## Project
-
-Simple Hello World Git Collaboration
-
-## Group Members
-
-
-- Rakshanda (Leader)
-- Esha 57381(Member)
-- Aqsa 53106 (Member)
-- Eman  (56964)..
-- Ayesha (55693)
+This project demonstrates collaborative source code management using Git and GitHub. Group members will work on separate branches, make commits, create pull requests, and merge their changes into the main branch.
   
