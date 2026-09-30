@@ -25,3 +25,21 @@ docker logs devops-container
 Expected Output
 
 Hello DevOps
+
+
+
+ Aqsa Ahmed - Docker Pull Test
+
+Pulled the latest Dockerfile from the repository and pulled the group's Docker image from Docker Hub, then tested that the container runs correctly.
+
+Commands used
+docker pull rakshanda56115/devops-project:latest
+docker images
+docker run --name aqsa-test rakshanda56115/devops-project:latest
+docker ps -a
+docker rm aqsa-test
+
+Screenshots
+![docker pull](screenshots/aqsa/pull.png)
+![docker images](screenshots/aqsa/images.png)
+![docker run output](screenshots/aqsa/output.png)
