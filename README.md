@@ -24,4 +24,4 @@ docker logs devops-container
 
 Expected Output
 
-Hello DevOpsdocker-compose.yml
+Hello DevOps
