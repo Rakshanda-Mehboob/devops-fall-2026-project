@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: ./Backend
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./Frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
