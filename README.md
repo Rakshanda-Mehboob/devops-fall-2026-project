@@ -43,3 +43,23 @@ Screenshots
 ![docker pull](screenshots/aqsa/pull.png)
 ![docker images](screenshots/aqsa/images.png)
 ![docker run output](screenshots/aqsa/output.png)
+
+Esha's Work – Docker
+
+ Pulled the project Docker image from Docker Hub.
+ Verified the image using `docker images`.
+ Ran the Docker container and tested the application output.
+ Tagged the project image with my Docker Hub repository name.
+ Pushed the tagged Docker image to Docker Hub successfully.
+
+ Commands Used
+
+```bash
+docker pull rakshanda56115/devops-project:latest
+docker images
+docker run --name esha-test rakshanda56115/devops-project:latest
+docker tag rakshanda56115/devops-project 57381/devops-project
+docker push 57381/devops-project
+```
+
+The Docker image was successfully pushed to Docker Hub with the tag `latest`.
