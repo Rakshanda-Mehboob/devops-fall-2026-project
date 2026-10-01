@@ -72,4 +72,28 @@ docker ps -a
 docker rm eman-test
 https://hub.docker.com/repository/docker/emanidrees/devops-project/general
 
+## Ayesha Khalil – Docker
+
+Pulled the project Docker image from Docker Hub.
+Verified the Docker image using `docker images`.
+Ran the Docker container and checked that the application runs successfully.
+Tested the container and verified the expected **Hello DevOps** output.
+
+### Commands Used
+
+```bash
+docker pull rakshanda56115/devops-project:latest
+docker images
+docker run --name ayesha-test rakshanda56115/devops-project:latest
+docker ps -a
+docker rm ayesha-test
+```
+
+### Screenshots
+
+![Ayesha Docker Pull](screenshots/ayesha/ss1.png)
+
+![Ayesha Docker Images](screenshots/ayesha/ss2.png)
+
+![Ayesha Docker Run](screenshots/ayesha/ss3.png)
 
