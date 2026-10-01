@@ -63,3 +63,13 @@ docker push 57381/devops-project
 ```
 
 The Docker image was successfully pushed to Docker Hub with the tag `latest`.
+
+Eman Idrees 
+docker pull rakshanda56115/devops-project:latest
+docker images
+docker run --name eman-test rakshanda56115/devops-project:latest
+docker ps -a
+docker rm eman-test
+https://hub.docker.com/repository/docker/emanidrees/devops-project/general
+
+
